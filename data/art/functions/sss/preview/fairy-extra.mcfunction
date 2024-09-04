@@ -1,0 +1,1 @@
+particle minecraft:firework ~ ~1.7 ~ 0 0 0 0.2 1 normal @s
