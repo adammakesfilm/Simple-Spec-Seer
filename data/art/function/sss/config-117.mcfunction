@@ -1,0 +1,5 @@
+# Cause MC to freak out and not recognize this function if MC < 1.17
+particle minecraft:electric_spark
+
+# Show 1.17 in-game config
+tellraw @s ["","[",{"text":"Aqua","underlined":true,"color":"aqua","clickEvent":{"action":"run_command","value":"/trigger spectator-config set -8"},"hoverEvent":{"action":"show_text","contents":[{"text":"Basically bright blue.","color":"aqua"}]}},"] [",{"text":"Snow","underlined":true,"color":"gray","clickEvent":{"action":"run_command","value":"/trigger spectator-config set -9"},"hoverEvent":{"action":"show_text","contents":[{"text":"Unleash the snow storm inside.","color":"white"}]}},"] [",{"text":"Spark","underlined":true,"color":"yellow","clickEvent":{"action":"run_command","value":"/trigger spectator-config set -10"},"hoverEvent":{"action":"show_text","contents":[{"text":"Lightning quick.","color":"yellow"}]}},"]"]
