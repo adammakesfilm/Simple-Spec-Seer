@@ -1,1 +1,0 @@
-particle minecraft:snowflake ~ ~1.7 ~ 0 0 0 0.2 1 normal @s
